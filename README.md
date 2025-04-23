@@ -15,15 +15,15 @@ This pipeline simulates real-world applications like:
 ## Pipeline Walkthrough
 
 1. **Data Setup** 
-2. **Model Definition** 
+2. **Model Definition**  *(see details below)*
 3. **Training & Evaluation** 
 4. **Explainability** 
 
-## Models
+### Models
 
 - **GraphSAGE**: Learns representations by aggregating local neighborhood info.
 - **LightGCN**: Lightweight alternative for efficient, deep collaborative filtering.
-
+-----------------------------
 ## Explainability
 
 Why did the model suggest this person?  
@@ -31,7 +31,10 @@ Each prediction is backed by a graph of **shared friends**—bringing transparen
 
 ![Sample Visualization](https://github.com/Zahid-Rahman-USF/Link-Prediction-GNN/blob/main/Basic%20visual%20of%20link%20prediction.png?raw=true)
 
-## Installation
+--------------------------------
+## Getting Started
+
+### 1. Installation
 
 Install all required Python packages:
 ```bash
@@ -41,15 +44,13 @@ pip install torch-sparse  -f https://data.pyg.org/whl/torch-2.6.0+cu124.html
 pip install torch-cluster -f https://data.pyg.org/whl/torch-2.6.0+cu124.html
 pip install torch-spline-conv -f https://data.pyg.org/whl/torch-2.6.0+cu124.html
 ````
---------------------------------
-## USAGE
-### 1. Download the Dataset
+### 2. Download the Dataset
 Download and extract `facebook.tar.gz` into `/content/facebook`.
 
-### 2. Run the Notebook
+### 3. Run the Notebook
 Open the notebook and run each section in order:
 
-### 3. Save or Analyze Outputs
+### 4. Save or Analyze Outputs
 Final models are saved to `/checkpoints` and can be reloaded for further analysis or deployment.
 
 ---------------------------------
@@ -63,5 +64,5 @@ Final models are saved to `/checkpoints` and can be reloaded for further analysi
 ---------------------------------
 ## License
 This project is licensed under the MIT License. See the LICENSE file for full details.
-
+Feel free to fork this repo, open issues, or contribute improvements!
 
