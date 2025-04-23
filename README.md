@@ -4,7 +4,7 @@ This project demonstrates a link prediction pipeline on social networks using li
 
 We use a Facebook ego-network graph to train GNNs for link prediction. The model suggests new connections and explains its reasoning by highlighting shared friends.
 
----
+
 ## Business Application
 
 This pipeline simulates real-world applications like:
@@ -25,7 +25,7 @@ This pipeline simulates real-world applications like:
      - **GraphSAGE**: Learns representations by aggregating local neighborhood info.
      - **LightGCN**: Lightweight alternative for efficient, deep collaborative filtering.
 
---------------------------------
+
 ## Getting Started
 
 ### 1. Installation
@@ -47,15 +47,15 @@ Open the notebook and run each section in order:
 ### 4. Save or Analyze Outputs
 Final models are saved to `/checkpoints` and can be reloaded for further analysis or deployment.
 
----------------------------------
+-----
 ### 🎥 Video Walkthrough  
 - [Watch a short video explanation here](https://youtu.be/1qhz2FeR8lY)
 
----------------------------------
+------
 ### References and Inspiration
 - [Using Graph Neural Networks to Predict & Analyze Links in Friendship Networks - Medium Article](https://medium.com/@patwei/using-graph-neural-networks-to-predict-analyze-links-in-friendship-networks-5df020830ced)
 - [Dataset (Standford SNAP)](https://snap.stanford.edu/data/egonets-Facebook.html)
----------------------------------
+-------
 ## License
 This project is licensed under the MIT License. See the LICENSE file for full details.
 
