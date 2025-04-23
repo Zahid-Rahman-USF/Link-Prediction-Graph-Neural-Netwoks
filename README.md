@@ -19,17 +19,11 @@ This pipeline simulates real-world applications like:
 3. **Training & Evaluation** 
 4. **Explainability** 
 
-### Models
 
-- **GraphSAGE**: Learns representations by aggregating local neighborhood info.
-- **LightGCN**: Lightweight alternative for efficient, deep collaborative filtering.
------------------------------
-## Explainability
 
-Why did the model suggest this person?  
-Each prediction is backed by a graph of **shared friends**—bringing transparency to the recommendation.
-
-![Sample Visualization](https://github.com/Zahid-Rahman-USF/Link-Prediction-GNN/blob/main/Basic%20visual%20of%20link%20prediction.png?raw=true)
+   *Models*
+     - **GraphSAGE**: Learns representations by aggregating local neighborhood info.
+     - **LightGCN**: Lightweight alternative for efficient, deep collaborative filtering.
 
 --------------------------------
 ## Getting Started
@@ -64,5 +58,6 @@ Final models are saved to `/checkpoints` and can be reloaded for further analysi
 ---------------------------------
 ## License
 This project is licensed under the MIT License. See the LICENSE file for full details.
+
 Feel free to fork this repo, open issues, or contribute improvements!
 
