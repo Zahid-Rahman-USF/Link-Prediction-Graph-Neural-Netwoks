@@ -48,7 +48,7 @@ Open the notebook and run each section in order:
 Final models are saved to `/checkpoints` and can be reloaded for further analysis or deployment.
 
 -----
-### 🎥 Video Walkthrough  
+### Video Walkthrough  
 - [Watch a short video explanation here](https://youtu.be/1qhz2FeR8lY)
 
 ------
